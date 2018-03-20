@@ -16,7 +16,7 @@ body {
 }
 
 p {
-    @include font($size: 15px, $weight: 400, $family: $font-family-base);
+    @include font($size: 15px, $weight: 300, $family: $font-family-base);
     color: $color-subtitle;
     line-height: 1.4;
     margin-bottom: 15px;
@@ -62,7 +62,7 @@ span {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    @include font($weight: 700, $family: $font-family-base);
+    @include font($weight: 400, $family: $font-family-second);
     color: $color-heading;
     line-height: 1.4;
     margin: 0 0 15px;

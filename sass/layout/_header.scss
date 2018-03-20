@@ -96,8 +96,7 @@
 
     .logo-img {
         display: inline-block;
-        @include size(85px, auto);
-        max-width: 100%;
+        @include size(120px, auto);
         max-height: 100%;
         vertical-align: middle;
     }
