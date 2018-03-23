@@ -12,7 +12,7 @@
         <!-- GLOBAL MANDATORY STYLES -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- PAGE LEVEL PLUGIN STYLES -->
@@ -58,10 +58,10 @@
                             <ul class="navbar-nav navbar-nav-right">
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Inicio</a></li>
                                 <!-- <li class="nav-item"><a class="nav-item-child nav-item-hover" href="pricing.html">Pricing</a></li> -->
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="about.html">Sobre Nopar</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">Operativas</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">FAQ</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#map">Contacto</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#about">Sobre Nopar</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#operativas">Operativas</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#faqs">FAQ</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#contacto">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
@@ -113,8 +113,8 @@
         <!--========== END SLIDER ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
-        <!-- Service -->
-        <div class="bg-color-sky-light" data-auto-height="true">
+        <!-- Sobre Nopar -->
+        <div class="bg-color-sky-light" data-auto-height="true" id="about">
             <div class="content-lg container">
                 <div class="row row-space-1 margin-b-2">
                     <div class="col-sm-4 sm-margin-b-2">
@@ -211,99 +211,105 @@
         </div>
         <!-- End Service -->
 
-        <!-- Latest Products -->
-        <div class="content-lg container">
-            <div class="row margin-b-40">
-                <div class="col-sm-6">
-                    <h2>Algunas de nuestras mejores operaciones</h2>
-                    <p>Somos lo que hacemos por nuestros clientes, y tenemos el orgullo y la suerte de contar con clientes de primera línea.</p>
-                </div>
-            </div>
-            <!--// end row -->
-
-            <div class="row">
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Rutas Canal Horeca</a> <span class="text-uppercase margin-l-20">DABA</span></h4>
-                    <p>En este caso el cliente precisaba de un servicio integral para el canal Horeca, donde el pedido medio tiene mucho valor, pero necesita de un servicio dedicado para satisfacer las necesidades del cliente.</p>
-                    <a class="link" href="#">Leer más</a>
-                </div>
-                <!-- End Latest Products -->
-
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Servicio de Flota</a> <span class="text-uppercase margin-l-20">AMZL</span></h4>
-                    <p>El cliente tiene una necesidad masiva de repartidores, Nopar ofrece un servicio de flota flexible, con capacidad de asumir picos semanales y estacionales.</p>
-                    <a class="link" href="#">Leer más</a>
-                </div>
-                <!-- End Latest Products -->
-
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Servicio Dedicado Integral</a> <span class="text-uppercase margin-l-20">Rajapack</span></h4>
-                    <p>Rajapack entiende el transporte como una oportunidad para fidelizar a sus clientes y nos pidió una solución completa de reparto en la provincia de Barcelona.</p>
-                    <a class="link" href="#">Leer más</a>
-                </div>
-                <!-- End Latest Products -->
-            </div>
-            <!--// end row -->
-        </div>
-        <!-- End Latest Products -->
-
-        <!-- Clients -->
-        <div class="bg-color-sky-light">
+        <!-- Team -->
+        <div class="">
             <div class="content-lg container">
-                <!-- Swiper Clients -->
-                <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                        </div>
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Conoce a nuestro equipazo</h2>
+                        <p>Juntos sumamos más de 35 años de experiencia, 7 empresas fundadas y 1.563.869 errores que te ayudaremos a no cometer</p>
                     </div>
-                    <!-- End Swiper Wrapper -->
                 </div>
-                <!-- End Swiper Clients -->
+                <!--// end row -->
+        
+                <div class="row">
+                    <!-- Team -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="bg-color-white margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/770x860/florez.jpg" alt="Team Image">
+                            </div>
+                        </div>
+                        <h4>
+                            <a href="#">Luis Ángel Florez</a>
+                            <span class="text-uppercase margin-l-20">Operaciones</span>
+                        </h4>
+                        <p>"Si es que es verdad macho"</p>
+                        <a class="link" href="https://www.linkedin.com/in/luisangelflorez/"><i class="icon-social-linkedin"></i></a>
+                    </div>
+                    <!-- End Team -->
+        
+                    <!-- Team -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="bg-color-white margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/770x860/servat.jpg" alt="Team Image">
+                            </div>
+                        </div>
+                        <h4>
+                            <a href="#">José Servat</a>
+                            <span class="text-uppercase margin-l-20">Ventas</span>
+                        </h4>
+                        <p>No, a ver, es coña, pero si jeje</p>
+                        <a class="link" href="https://www.linkedin.com/in/jose-servat-amat-805859b/"><i class="icon-social-linkedin"></i></a>
+                    </div>
+                    <!-- End Team -->
+        
+                    <!-- Team -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="bg-color-white margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/770x860/gonzalo.jpg" alt="Team Image">
+                            </div>
+                        </div>
+                        <h4>
+                            <a href="#">Gonzalo Forniés</a>
+                            <span class="text-uppercase margin-l-20">Software</span>
+                        </h4>
+                        <p>¡Qué fino!</p>
+                        <a class="link" href="https://www.linkedin.com/in/gonzalofornies/"><i class="icon-social-linkedin"></i></a>
+                    </div>
+                    <!-- End Team -->
+                </div>
+                <!--// end row -->
             </div>
         </div>
-        <!-- End Clients -->
 
-        <!-- Testimonials -->
-        <div class="content-lg container">
-            <div class="row">
-                <div class="col-sm-9">
+        <!-- Clientes -->
+        <div class="bg-color-sky-light" id="clientes">
+            <div class="content-lg container">
+                <!-- Clients -->
+                <div class="row">
+                    <!-- Clientes -->
+                    <div class="swiper-slider swiper-clients mt-50 margin-b-50">
+                        <!-- Swiper Wrapper -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                            </div>
+                        </div>
+                        <!-- End Swiper Wrapper -->
+                    </div>
+                    <!-- End Clients -->
+                </div>
+                <!-- End Clients -->
+                <div class="col-sm-9 mt-50">
                     <h2>Lo que dicen nuestros clientes...</h2>
-
                     <!-- Swiper Testimonials -->
                     <div class="swiper-slider swiper-testimonials">
                         <!-- Swiper Wrapper -->
@@ -311,37 +317,196 @@
                             <div class="swiper-slide">
                                 <blockquote class="blockquote">
                                     <div class="margin-b-20">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim
+                                        veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
                                     </div>
                                     <div class="margin-b-20">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua.
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat
+                                        siad minim aliqua.
                                     </div>
-                                    <p><span class="fweight-700 color-link">Diego Gómez</span>, Sales Manager de RAJAPACK</p>
+                                    <p>
+                                        <span class="fweight-700 color-link">Diego Gómez</span>, Sales Manager de RAJAPACK</p>
                                 </blockquote>
                             </div>
                             <div class="swiper-slide">
                                 <blockquote class="blockquote">
                                     <div class="margin-b-20">
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                     </div>
                                     <div class="margin-b-20">
                                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                     </div>
-                                    <p><span class="fweight-700 color-link">Xavi Chaparro</span>, Responsable de Logística de DABA</p>
+                                    <p>
+                                        <span class="fweight-700 color-link">Xavi Chaparro</span>, Responsable de Logística de DABA</p>
                                 </blockquote>
                             </div>
                         </div>
                         <!-- End Swiper Wrapper -->
-
-                        <!-- Pagination -->
-                        <div class="swiper-testimonials-pagination"></div>
                     </div>
                     <!-- End Swiper Testimonials -->
                 </div>
+                
             </div>
-            <!--// end row -->
         </div>
-        <!-- End Testimonials -->
+        <!-- End Clientes -->
+
+        <!-- Operativas -->
+        <div class="">
+            <div class="content-lg container" id="operativas">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Algunas de nuestras mejores operaciones</h2>
+                        <p>Somos lo que hacemos por nuestros clientes, y tenemos el orgullo y la suerte de contar con clientes de primera línea.</p>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row">
+                    <!-- Operativa 1 -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Rutas Canal Horeca</a> <span class="text-uppercase margin-l-20">DABA</span></h4>
+                        <p>En este caso el cliente precisaba de un servicio integral para el canal Horeca, donde el pedido medio tiene mucho valor, pero necesita de un servicio dedicado para satisfacer las necesidades del cliente.</p>
+                    </div>
+                    <!-- End operativa 1 -->
+
+                    <!-- Operativa 2 -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Servicio de Flota</a> <span class="text-uppercase margin-l-20">AMZL</span></h4>
+                        <p>El cliente tiene una necesidad masiva de repartidores, Nopar ofrece un servicio de flota flexible, con capacidad de asumir picos semanales y estacionales.</p>
+                    </div>
+                    <!-- End Operativa 2 -->
+
+                    <!-- Operativa 3 -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Serv. Dedicado Integral</a> <span class="text-uppercase">Rajapack</span></h4>
+                        <p>Rajapack entiende el transporte como una oportunidad para fidelizar a sus clientes y nos pidió una solución completa de reparto en la provincia de Barcelona.</p>
+                    </div>
+                    <!-- End operativa 3 -->
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Operativas -->
+        </div>
+        <!-- End Operativas -->
+
+        <!-- Faqs -->
+        <div class="bg-color-sky-light" data-auto-height="true" id="faqs">
+            <div class="content-lg container">
+                <h2>Preguntas frecuentes</h2>
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <h3>1.- ¿Tenéis trazabilidad de envíos?</h3>
+                                <p class="margin-b-5">Sí, nuestro reparto puede hacerse utilizando nuestra tecnología tanto de reparto y optimización como
+                                    de seguimiento por parte del cliente, el destinatario (tu cliente final) y tu equipo interno
+                                    de atención al cliente. Cualquier persona que tú autorices podrá ver donde se encuentra su pedido
+                                    exactamente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="service" data-height="height">
+                                <h3>2.- ¿Es obligatorio utilizar vuestro sistema de trazabilidad?</h3>
+                                <p class="margin-b-5">No, podemos utilizar el tuyo propio. También podemos adaptar o crear desde cero una plataforma tecnológica
+                                    que se ajuste a tus necesidades.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+        
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <h3>3.- ¿Trabajáis con repartidores en régimen de contrato laboral o con repartidores autónomos?</h3>
+                                <p class="margin-b-5">Nos ajustamos a las necesidades del cliente, en nuestro equipo de repartidores contamos con repartidores
+                                    contratados directamente por Nopar Solutions, contamos con repartidores de nuestra selección
+                                    de proveedores y contamos también con repartidores autónomos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <h3>4.- ¿Nopar reparte en toda España?</h3>
+                                <p class="margin-b-5">Sí, contamos con una red de corresponsales que nos garantizan una operativa de calidad en toda España.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+        
+                <div class="row row-space-1">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                            <div class="service" data-height="height">
+                                <h3>5.- ¿Es más económico un reparto dedicado que utilizar a una empresa de paquetería al uso como SEUR,
+                                    MRW, DHL, etc.?</h3>
+                                <p class="margin-b-5">Depende del tamaño, la cantidad de envíos diarios y la zona que quieras cubrir. Hacemos un estudio
+                                    de tu operativa sin ningún compromiso. Contacta con nosotros.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <h3>6.- ¿Facturáis un importe fijo por ruta o un importe por envío?</h3>
+                                <p class="margin-b-5">Ofrecemos las dos formas de facturación en función de la preferencia del cliente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+        
+                <div class="row row-space-1">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                            <div class="service" data-height="height">
+                                <h3>7.- ¿Ofrecéis servicio de paquetería nacional e internacional?</h3>
+                                <p class="margin-b-5">Depende del tamaño, la cantidad de envíos diarios y la zona que quieras cubrir. Hacemos un estudio de tu operativa sin ningún compromiso. Contacta con nosotros.</p>
+                                <a href="#contacto" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <h3>8.- ¿Tienes más dudas??</h3>
+                                <p class="margin-b-5">No te lo pienses, contáctanos aquí</p>
+                                <a href="#contacto" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Faqs -->
+
+        <!-- Map Contact -->
+        <div class="bg-color-sky-light overflow-h">
+            <div id="map" class="map height-400"></div>
+        </div>
+        <!-- End Map Contact -->
     
         <!-- Promo Section -->
         <div class="promo-section overflow-h">
@@ -364,15 +529,10 @@
         </div>
         <!-- End Promo Section -->
 
-        <!-- Work -->
-        <div class="bg-color-sky-light overflow-h">
-            <div id="map" class="map height-400"></div>
-        </div>
-        <!-- End Work -->
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
-        <footer class="footer">
+        <footer class="footer" id="contacto">
             <!-- Links -->
             <div class="footer-seperator">
                 <div class="content-lg container">
@@ -381,12 +541,12 @@
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><a class="footer-list-link" href="/">Home</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Sobre Nopar</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Operativas</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#about">Sobre Nopar</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#operativas">Operativas</a></li>
                                 <!-- <li class="footer-list-item"><a class="footer-list-link" href="#">Pricing</a></li> -->
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Clientes</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#clientes">Clientes</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Trabaja en Nopar</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Contacto</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#contacto">Contacto</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Terms</a></li>
                             </ul>
                             <!-- End List -->
@@ -423,7 +583,7 @@
                         <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
                     </div>
                     <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/"></a> Legal <a class="color-base fweight-700" href="http://www.keenthemes.com/"></a></p>
+                        <p class="margin-b-0"><a class="color-base fweight-700" href="#"></a> Legal <a class="color-base fweight-700" href="#"></a></p>
                     </div>
                 </div>
                 <!--// end row -->

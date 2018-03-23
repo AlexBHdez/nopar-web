@@ -119,3 +119,12 @@ h4 { @include font($size: 22px); }
     z-index: 3;
     text-decoration: none;
 }
+
+i {
+    color: $color-blue-brand;
+    font-size: 1.2em;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
