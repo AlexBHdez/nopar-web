@@ -55,9 +55,8 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
-                            <ul class="navbar-nav navbar-nav-right">
+                            <ul class="navbar-nav navbar-nav-right" id="menu">
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Inicio</a></li>
-                                <!-- <li class="nav-item"><a class="nav-item-child nav-item-hover" href="pricing.html">Pricing</a></li> -->
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#about">Sobre Nopar</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#operativas">Operativas</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#faqs">FAQ</a></li>
@@ -89,7 +88,7 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">Transporte Dedicado</h1>
+                                <h1 class="carousel-title">Transporte <span class="carousel-title" id="titleSpan">Dedicado</span></h1>
                                 <p>Entrega tus pedidos como siempre habías querido. Ponemos al mejor equipo <br/> personal y tecnológico a cuidar de tus clientes.</p>
                             </div>
                             <a href="contact.html" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Contacta con nosotros</a>
@@ -101,7 +100,7 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h2 class="carousel-title">Transporte Dedicado 2</h2>
+                                <h2 class="carousel-title">Transporte <span class="carousel-title" id="titleSpan2"> Dedicado 2</span></h2>
                                 <p>Entrega tus pedidos como siempre habías querido. Ponemos al mejor equipo <br/> personal y tecnológico a cuidar de tus clientes.</p>
                             </div>
                             <a href="contact.html" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Contacta con nosotros</a>
@@ -209,7 +208,7 @@
                 <!--// end row -->
             </div>
         </div>
-        <!-- End Service -->
+        <!-- End Sobre Nopar -->
 
         <!-- Team -->
         <div class="">
@@ -272,42 +271,44 @@
                     <!-- End Team -->
                 </div>
                 <!--// end row -->
+                <!-- Clients Containar -->
+                <div class="content-lg container">
+                    <div class="row">
+                        <!-- Clientes -->
+                        <div class="swiper-slider swiper-clients mt-50 margin-b-50">
+                            <!-- Swiper Wrapper -->
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                                </div>
+                            </div>
+                            <!-- End Swiper Wrapper -->
+                        </div>
+                        <!-- End Clients -->
+                    </div>
+                </div>
+                <!-- End Clients container -->
             </div>
         </div>
 
         <!-- Clientes -->
         <div class="bg-color-sky-light" id="clientes">
             <div class="content-lg container">
-                <!-- Clients -->
-                <div class="row">
-                    <!-- Clientes -->
-                    <div class="swiper-slider swiper-clients mt-50 margin-b-50">
-                        <!-- Swiper Wrapper -->
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <!-- End Swiper Wrapper -->
-                    </div>
-                    <!-- End Clients -->
-                </div>
-                <!-- End Clients -->
                 <div class="col-sm-9 mt-50">
                     <h2>Lo que dicen nuestros clientes...</h2>
                     <!-- Swiper Testimonials -->
@@ -567,7 +568,7 @@
                                 <input type="email" name="Email" class="form-control footer-input margin-b-20" placeholder="Email" required>
                                 <input type="text" name="Teléfono" class="form-control footer-input margin-b-20" placeholder="Teléfono" required>
                                 <textarea name="Mensaje" class="form-control footer-input margin-b-30" rows="6" placeholder="Mensaje" required></textarea>
-                                <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                                <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase" id="formButton">Enviar</button>
                             </form>
                         </div>
                     </div>

@@ -7,7 +7,7 @@
 }
 
 .btn-white-brd {
-	@include button-color($color-white, $color-heading, transparent, $color-white, 1px, rgba(255,255,255,.3), transparent);
+	@include button-color($color-white, $color-heading, transparent, $color-base, 1px, rgba(255,255,255,.3), transparent);
 }
 
 .btn-default-bg {

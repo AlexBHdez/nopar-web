@@ -8,7 +8,13 @@ var Layout = function () {
         } else {
             $('body').removeClass('page-on-scroll');
         }
-    }   
+    }
+    
+    // handle active link
+    $('#menu a').click(function () {
+        $('#menu .active').removeClass('active');
+        $(this).toggleClass('active');
+    });
 
     // handle carousel
     var handleCarousel = function() {

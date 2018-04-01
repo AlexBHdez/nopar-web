@@ -173,6 +173,7 @@
             @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
         }
     }
+    
 }
 
 /* Media Queries below 991px */

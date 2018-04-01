@@ -128,3 +128,13 @@ i {
 .mt-50 {
     margin-top: 50px;
 }
+
+#titleSpan, #titleSpan2 {
+    font-family: inherit;
+    font-weight: inherit;
+    color: #5AFCEB;
+}
+
+.color-brand {
+    background-color: $color-blue-brand;
+}

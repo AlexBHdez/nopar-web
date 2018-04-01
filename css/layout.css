@@ -160,6 +160,16 @@ i {
   margin-top: 50px;
 }
 
+#titleSpan, #titleSpan2 {
+  font-family: inherit;
+  font-weight: inherit;
+  color: #5AFCEB;
+}
+
+.color-brand {
+  background-color: #002452;
+}
+
 /*------------------------------------------------------------------
   	[Blockquote]
 ------------------------------------------------------------------*/
@@ -241,7 +251,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-white-brd:hover, .btn-white-brd:focus, .btn-white-brd.focus {
   color: #002452;
-  background: #fff;
+  background: #5AFCEB;
   border-color: transparent;
 }
 
@@ -1564,4 +1574,15 @@ fieldset[disabled] .btn-theme {
 
 .height-400 {
   height: 400px !important;
+}
+
+
+
+
+#formButton {
+  color: #002452;
+}
+
+#formButton:hover {
+  color: white;
 }
