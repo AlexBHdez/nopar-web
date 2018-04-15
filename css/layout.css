@@ -1576,6 +1576,10 @@ fieldset[disabled] .btn-theme {
   height: 400px !important;
 }
 
+.clients .img-fluid {
+  width: 80%;
+}
+
 
 
 
@@ -1585,4 +1589,28 @@ fieldset[disabled] .btn-theme {
 
 #formButton:hover {
   color: white;
+}
+
+@media (max-width: 450px) {
+
+  .carousel-title {
+    font-size: 32px;
+  }
+
+  .clients .img-fluid {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .clients .img-fluid {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .clients .img-fluid {
+    width: 60%;
+  }
 }

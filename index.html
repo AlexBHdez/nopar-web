@@ -57,6 +57,7 @@
                         <div class="menu-container">
                             <ul class="navbar-nav navbar-nav-right" id="menu">
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Inicio</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#servicios">Servicios</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#about">Sobre Nopar</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#operativas">Operativas</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#faqs">FAQ</a></li>
@@ -91,7 +92,7 @@
                                 <h1 class="carousel-title">Transporte <span class="carousel-title" id="titleSpan">Dedicado</span></h1>
                                 <p>Entrega tus pedidos como siempre habías querido. Ponemos al mejor equipo <br/> personal y tecnológico a cuidar de tus clientes.</p>
                             </div>
-                            <a href="contact.html" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Contacta con nosotros</a>
+                            <a href="#contacto" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Contacta con nosotros</a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +104,7 @@
                                 <h2 class="carousel-title">Transporte <span class="carousel-title" id="titleSpan2"> Dedicado 2</span></h2>
                                 <p>Entrega tus pedidos como siempre habías querido. Ponemos al mejor equipo <br/> personal y tecnológico a cuidar de tus clientes.</p>
                             </div>
-                            <a href="contact.html" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Contacta con nosotros</a>
+                            <a href="#contacto" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Contacta con nosotros</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +114,7 @@
 
         <!--========== PAGE LAYOUT ==========-->
         <!-- Sobre Nopar -->
-        <div class="bg-color-sky-light" data-auto-height="true" id="about">
+        <div class="bg-color-sky-light" data-auto-height="true" id="servicios">
             <div class="content-lg container">
                 <div class="row row-space-1 margin-b-2">
                     <div class="col-sm-4 sm-margin-b-2">
@@ -211,7 +212,7 @@
         <!-- End Sobre Nopar -->
 
         <!-- Team -->
-        <div class="">
+        <div class="" id="about">
             <div class="content-lg container">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
@@ -273,33 +274,11 @@
                 <!--// end row -->
                 <!-- Clients Containar -->
                 <div class="content-lg container">
-                    <div class="row">
-                        <!-- Clientes -->
-                        <div class="swiper-slider swiper-clients mt-50 margin-b-50">
-                            <!-- Swiper Wrapper -->
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                                </div>
-                            </div>
-                            <!-- End Swiper Wrapper -->
-                        </div>
-                        <!-- End Clients -->
+                    <div class="row clients">
+                        <div class="col-xs-6 col-sm-3 text-center"><img src="img/clients/01.png" alt="" class="img-fluid"></div>
+                        <div class="col-xs-6 col-sm-3 text-center"><img src="img/clients/02.png" alt="" class="img-fluid"></div>
+                        <div class="col-xs-6 col-sm-3 text-center"><img src="img/clients/03.png" alt="" class="img-fluid"></div>
+                        <div class="col-xs-6 col-sm-3 text-center"><img src="img/clients/04.png" alt="" class="img-fluid"></div>
                     </div>
                 </div>
                 <!-- End Clients container -->
@@ -368,7 +347,7 @@
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
                             <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                                <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
                             </div>
                         </div>
                         <h4><a href="#">Rutas Canal Horeca</a> <span class="text-uppercase margin-l-20">DABA</span></h4>
@@ -504,7 +483,7 @@
         <!-- End Faqs -->
 
         <!-- Map Contact -->
-        <div class="bg-color-sky-light overflow-h">
+        <div class="bg-color-sky-light overflow-h" id="contacto">
             <div id="map" class="map height-400"></div>
         </div>
         <!-- End Map Contact -->
@@ -533,7 +512,7 @@
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
-        <footer class="footer" id="contacto">
+        <footer class="footer">
             <!-- Links -->
             <div class="footer-seperator">
                 <div class="content-lg container">
@@ -542,9 +521,9 @@
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><a class="footer-list-link" href="/">Home</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#servicios">Servicios</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#about">Sobre Nopar</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#operativas">Operativas</a></li>
-                                <!-- <li class="footer-list-item"><a class="footer-list-link" href="#">Pricing</a></li> -->
                                 <li class="footer-list-item"><a class="footer-list-link" href="#clientes">Clientes</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Trabaja en Nopar</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#contacto">Contacto</a></li>
@@ -582,9 +561,6 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="#"></a> Legal <a class="color-base fweight-700" href="#"></a></p>
                     </div>
                 </div>
                 <!--// end row -->
